@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #96CB2A;
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo-eaj {
+    width: 100%; /* Ajuste para dispositivos móveis */
+    max-width: 200px;
+}
+
+#titulo-1 {
+    padding: 5px; 
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.paragrafo {
+    text-align: justify;
+}
+
+#img-container {
+    text-align: center;
+    background-color: #F2EDED;
+    max-width: 100%;
+    max-width: 250;
+}
+
+#img-container figcaption {
+    font-style: italic;
+}
+
+.titulo-secao {
+    border-bottom: 3px solid  #96CB2A;
+    font-weight: 600;
+}
+
+#rodape {
+    border-top: 3px solid  #96CB2A;
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1100px;
+} 
+
+#rodape .coluna  {
+    max-width: 366px;
+}
+
+#rodape .coluna p {
+    padding: 0;
+    margin: 6px;
+    text-align: center;
+}
+
+/* Estilos para dispositivos maiores */
+@media (min-width: 768px) {
+    #container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    #logo-eaj {
+        max-width: 380px; /* Ajuste para dispositivos maiores */
+    }
+    #container-flex {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    #rodape .coluna  {
+        max-width: 366px;
+    }
+
+    #rodape .coluna p {
+        text-align: left;
+    }
+}
