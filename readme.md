@@ -7,10 +7,10 @@ This project demonstrates the application of the Mobile First approach in web de
 The Mobile First approach prioritizes designing and developing for mobile devices first, then progressively enhancing the experience for larger screens. This ensures a responsive and user-friendly experience across a wide range of devices.
 
 ### Mobile View
-![Mobile View](./assets/img/mobile.png)
+![Mobile View](./mobile.png)
 
 ### Desktop View
-![Desktop View](./assets/img/desktop.png)
+![Desktop View](./desktop.png)
 
 ## Project Structure
 
