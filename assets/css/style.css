@@ -86,14 +86,14 @@ img {
     text-align: center;
 }
 
-/* Estilos para dispositivos maiores */
+
 @media (min-width: 768px) {
     #container {
         max-width: 1100px;
         margin: 0 auto;
     }
     #logo-eaj {
-        max-width: 380px; /* Ajuste para dispositivos maiores */
+        max-width: 380px; 
     }
     #container-flex {
         flex-direction: row;
